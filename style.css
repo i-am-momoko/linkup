@@ -53,7 +53,7 @@ h2 {
   text-align: center;
   font-size: 50px;
   color: gold;
-  padding: 2ex;
+  padding: 2ex 0;
 }
 
 h3 {
@@ -104,6 +104,11 @@ li:nth-child(2) {
 .howtouse .howtouse_text {
   display: inline-block;
   text-align: left;
+  margin: 20px;
+}
+
+.howtouse_text h4 {
+  margin-top: 1.5ex;
 }
 
 .bg_text {
@@ -121,6 +126,11 @@ li:nth-child(2) {
 .bg_text .bg_text-text {
   display: inline-block;
   text-align: left;
+}
+
+.bg_text-text p {
+  margin: 1.5ex 0;
+  font-size: large;
 }
 
 footer {
