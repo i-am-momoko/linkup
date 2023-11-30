@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+main {
+  font-family: "Lobster", "Noto Sans JP", sans-serif;
+}
+
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+  padding: 20px;
+  align-items: center;
+}
+
+.flex .image img {
+  width: 100%; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.flex .summary {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #ffa500;
+  border: solid 3px white;
+  border-radius: 20px;
+}
+
+header {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+
+header > p {
+  text-align: center;
+  padding-top: 5em;
+  color: #ffa500;
+}
+
+h1 {
+  font-family: "Lobster";
+  color: #ffa500;
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 1ex;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: gold;
+  padding: 2ex;
+}
+
+h3 {
+  text-align: center;
+  color: gold;
+  font-size: 30px;
+  padding: 1ex;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 2em 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+li:nth-child(2) {
+  margin: 0 10px;
+}
+
+.target {
+  color: #ffa500;
+}
+
+.background {
+  background-color: lightgoldenrodyellow;
+}
+
+.howtouse {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #ffa500;
+  color: white;
+  border: solid 3px gold;
+  border-radius: 20px;
+}
+
+.howtouse .howtouse_text {
+  display: inline-block;
+  text-align: left;
+}
+
+.bg_text {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(imgs/house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bg_text .bg_text-text {
+  display: inline-block;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  color: #ffa500;
+  margin: 2ex;
+  font-family: "Lobster", sans-serif;
+}
